@@ -1,0 +1,57 @@
+/* BASIC STYLING */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=McLaren&display=swap" rel="stylesheet');
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700&family=Poppins:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Poppins:wght@200&family=Roboto:wght@500&family=Rowdies&display=swap");
+
+/* Fonts */
+
+@font-face {
+  font-family: SansationBold;
+  src: url(./Assets/fonts/Sansation_Bold.ttf);
+}
+@font-face {
+  font-family: SansationLight;
+  src: url(./Assets/fonts/Sansation_Light.ttf);
+}
+@font-face {
+  font-family: draic;
+  src: url(./Assets/fonts/draic.otf);
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS",
+    sans-serif;
+  background-color: linear-gradient(to right top, rgb(0, 1, 88), rgb(0, 0, 0));
+}
+html,
+body {
+  background-color: linear-gradient(to right top, rgb(0, 1, 88), rgb(0, 0, 0));
+}
+
+h1 {
+  color: aliceblue;
+}
+
+.App {
+  position: sticky;
+  background: linear-gradient(to right top, rgb(0, 1, 88), rgb(0, 0, 0));
+  transition: 0.5s ease;
+  scroll-behavior: smooth;
+  overflow: hidden;
+}
+/* PARTICLES */
+
+.paricles {
+  position: sticky;
+  width: 100%;
+}
+:root {
+  --primary-color: #;
+}

@@ -1,0 +1,285 @@
+@import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Open+Sans+Condensed:wght@300&family=Poppins:wght@200&family=Roboto:wght@500&family=Rowdies&display=swap");
+
+.project-page {
+  margin-top: -10rem;
+  background-color: rgba(10, 25, 49, 0.8);
+  padding-bottom: 80px;
+  position: relative;
+  z-index: 1;
+}
+/* .midline{
+  position: absolute;
+  color: white;
+  z-index: 30000;
+  margin: auto;
+  background-color: azure;
+  text-align: left;
+  left:27rem;
+  top:34rem;
+  width:5rem;
+} */
+
+.proj_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+}
+
+.project-headerupcoming {
+  padding-top: 12.4rem;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.project-header {
+  padding-top: 10.5rem;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.project-moto {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1rem;
+  padding-top: 40px;
+  color: #57b8ff;
+  letter-spacing: 0.3em;
+}
+
+.project-page-title {
+  font-family: "Rowdies", cursive;
+  font-size: 2.5rem;
+  padding: 20px;
+  font-family: SansationBold;
+}
+
+.project-section {
+  text-align: center;
+}
+
+.project-heading {
+  font-family: "Rowdies", cursive;
+  font-size: 2.5rem;
+}
+
+.project-seperator {
+  display: flex;
+}
+
+.project-line1 {
+  height: 3px;
+  width: 32%;
+  color: white;
+  z-index: 30000;
+  margin: auto;
+  background-color: azure;
+  text-align: left;
+  margin-right: 0;
+}
+.projectsupcomingcontainer {
+  margin: 0 40px;
+  display: flex;
+  align-items: left;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.project-line2 {
+  height: 3px;
+  width: 32%;
+  color: white;
+  z-index: 30000;
+  margin: auto;
+  background-color: azure;
+  text-align: left;
+  margin-left: 0;
+}
+.project_headline_div {
+  margin-top: 2rem;
+}
+.firstrowourproject {
+  z-index: 100;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.projects-container {
+  display: flex;
+  text-align: center;
+  margin: auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0 40px;
+}
+
+/* @media (max-width: 800px) {
+  .project-container {
+    flex-direction: column;
+  }
+} */
+
+.link-active {
+  text-decoration: none;
+}
+
+.link-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.individual-project-container {
+  text-align: center;
+  background-color: #17202e;
+  z-index: 2;
+  padding: 10px;
+  /* margin: 10px 10px; */
+  margin: auto;
+  margin-bottom: 30px;
+  /* border: 2px solid; */
+  width: 26%;
+  /* border-color: aliceblue; */
+  border-radius: 20px;
+}
+.individual-project-container:hover{
+  background-color: #121623;
+  box-shadow: 0px 0px 10px 0px #3869a0;
+}
+
+
+.project-decoration-line {
+  height: 2px;
+  background-color: white;
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.left-link {
+  position: relative;
+  text-align: left;
+  width: 150px;
+  text-align: center;
+}
+.right-link {
+  position: relative;
+  text-align: right;
+  left: 20px;
+  text-align: center;
+  margin: auto;
+}
+.project-card-btn {
+  text-decoration: none;
+  margin-left: 10px;
+  display: block;
+  font-size: 0.8rem;
+  text-align: center;
+  color: #719fb0;
+  font-weight: bold;
+  background-color: #17202e;
+  border: none;
+  border-radius: 0.4rem;
+  transition: 0.2s;
+  cursor: pointer;
+  white-space: nowrap;
+  margin-right: 20px;
+  letter-spacing: 0.1rem;
+}
+.project-card-btn span {
+  transition: 0.2s;
+}
+.project-card-btn:hover span,
+.project-card-btn:active span {
+  margin-left: 1rem;
+  background: none;
+}
+
+.project-heading2 {
+  font-size: 1.4rem;
+  color: #b2daf1;
+  margin-top: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.project-title {
+  font-family: "Rowdies", cursive;
+  font-size: 1.5rem;
+  color: #b2daf1;
+  padding: 10px;
+}
+
+.project-description {
+  color: white;
+  padding: 10px 20px;
+  padding-bottom: 0;
+}
+
+.project-image {
+  padding: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 20px;
+  width: 92%;
+  height: fit-content;
+}
+
+@media (max-width: 767.98px) {
+  .projects-container {
+    flex-direction: column;
+  }
+  .individual-project-container {
+    /* margin: 10px; */
+    width: 100%;
+  }
+  .project-image {
+    width: 60%;
+  }
+  .project-title {
+    font-size: 1rem;
+  }
+  .project-description {
+    font-size: 0.8rem;
+  }
+  .project-button {
+    font-size: 12px;
+    margin-left: 11px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .projects-container {
+    margin: 0 30px;
+  }
+
+  .project-moto {
+    font-size: 12px;
+    letter-spacing: 0.2rem;
+    padding-top: 10px;
+    margin: 0.4rem;
+  }
+  .project-page-title {
+    font-size: 1.7rem;
+    white-space: nowrap;
+  }
+  .project-line1 {
+    width: 100%;
+  }
+  .project-line2 {
+    width: 100%;
+  }
+  .individual-project-container {
+    /* margin: 40px; */
+    margin-top: 0;
+  }
+  .project-image {
+    width: 100%;
+  }
+  .project-title {
+    font-size: 1rem;
+    padding: 0;
+  }
+  .project-page {
+    padding-bottom: 20px;
+  }
+}
