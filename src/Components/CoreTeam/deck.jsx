@@ -6,6 +6,10 @@ import Axa from "../../Assets/Core Team/Axa.jpeg";
 import darshan from "../../Assets/Core Team/darshan.jpeg";
 import sumedh from "../../Assets/Core Team/Sumedh.jpeg";
 import sagar from "../../Assets/Core Team/Sagar.jpeg";
+import abhishek from "../../Assets/Departments/Programming/Abhishek.jpeg";
+import mohini from "../../Assets/Departments/Mechanical/Mohini.jpeg";
+import harsh from "../../Assets/Departments/Mechanical/Harsh Kapse.jpeg";
+
 // import arrow from "../../Assets/arrow.png";
 
 // import ourteaminfo from '../../Data/home-our-team';
@@ -241,29 +245,27 @@ class Deck extends Component {
   }
 }
 
-const imgarray = [Prathis, Axa, sumedh, sagar, darshan];
+const imgarray = [abhishek, mohini, Prathis, darshan, harsh];
 
-const name = ["PRATHIS","AXASUSAN", "SUMEDH", "SAGAR", "DARSHAN"];
+const name = ["ABHISHEK", "MOHINI", "PRATHIS", "DARSHAN", "HARSH"];
 
-const surname = ["UPADHYAY", "MATHEW","SALVEKAR", "WARUNGASE","KADAM" ];
-
+const surname = ["BORASE", "KULKARNI", "UPADHYAY", "KADAM", "KAPSE"];
 
 const dep = [
   "PROGRAMING HEAD",
   "TEAM MANAGER",
-
   "TEAM CAPTAIN",
   "VICE CAPTAIN",
-  "R & D HEAD",
+  "MECHANICAL HEAD",
 ];
 
-const link=[
+const link = [
+  "https://www.linkedin.com/in/abhishekborase/",
+  "https://www.linkedin.com/in/mohini-kulkarni-39239a199",
   "https://www.linkedin.com/in/prathisupadhyay/",
-  "http://www.linkedin.com/in/axasusan-mathew-08067b1b0",
-  "https://www.linkedin.com/in/sumedhsalvekar",
-  "https://www.linkedin.com/in/sagar-warungase-58321b183/",
-  "https://www.linkedin.com/in/darshankadam15/"
-]
+  "https://www.linkedin.com/in/darshankadam15/",
+  "https://www.linkedin.com/in/harsh-kapse-216748192",
+];
 
 // const img=[
 //   ''
